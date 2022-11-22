@@ -1,0 +1,250 @@
+version: 3
+profiles:
+  - type: local
+    name: Aw0
+    options:
+      command: /bin/zsh
+      args:
+        - '--login'
+      env: {}
+    group: awoisoak
+    icon: "fa fa-rocket\t"
+    id: local:custom:Aw0:2f4e7e0c-d215-4c94-8cc8-f113ac54c98b
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - ⌘-C
+  paste:
+    - ⌘-V
+  clear:
+    - ⌘-K
+  select-all:
+    - ⌘-A
+  zoom-in:
+    - ⌘-=
+    - ⌘-Shift-=
+  zoom-out:
+    - ⌘--
+    - ⌘-Shift--
+  reset-zoom:
+    - ⌘-0
+  home:
+    - ⌘-Left
+    - Home
+  end:
+    - ⌘-Right
+    - End
+  previous-word:
+    - ⌥-Left
+  next-word:
+    - ⌥-Right
+  delete-previous-word:
+    - ⌥-Backspace
+  delete-line:
+    - ⌘-Backspace
+  delete-next-word:
+    - ⌥-Delete
+  search:
+    - ⌘-F
+  pane-focus-all:
+    - ⌘-Shift-I
+  focus-all-tabs:
+    - ⌘-⌥-Shift-I
+  scroll-to-top:
+    - Shift-PageUp
+  scroll-up:
+    - ⌥-PageUp
+  scroll-down:
+    - ⌥-PageDown
+  scroll-to-bottom:
+    - Shift-PageDown
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - ⌘-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window:
+    - ⌘-N
+  new-tab:
+    - ⌘-T
+  search-in-browser: []
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - Ctrl+⌘+F
+  close-tab:
+    - ⌘-W
+  reopen-tab:
+    - ⌘-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - ⌘-R
+  next-tab:
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - ⌘-Shift-Left
+  move-tab-right:
+    - ⌘-Shift-Right
+  rearrange-panes:
+    - Ctrl-Shift
+  tab-1:
+    - ⌘-1
+  tab-2:
+    - ⌘-2
+  tab-3:
+    - ⌘-3
+  tab-4:
+    - ⌘-4
+  tab-5:
+    - ⌘-5
+  tab-6:
+    - ⌘-6
+  tab-7:
+    - ⌘-7
+  tab-8:
+    - ⌘-8
+  tab-9:
+    - ⌘-9
+  tab-10:
+    - ⌘-0
+  duplicate-tab: []
+  restart-tab: []
+  explode-tab:
+    - ⌘-Shift-.
+  combine-tabs:
+    - ⌘-Shift-,
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - ⌘-Shift-D
+  split-bottom:
+    - ⌘-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - ⌘-⌥-Right
+  pane-nav-down:
+    - ⌘-⌥-Down
+  pane-nav-up:
+    - ⌘-⌥-Up
+  pane-nav-left:
+    - ⌘-⌥-Left
+  pane-nav-previous:
+    - ⌘-⌥-[
+  pane-nav-next:
+    - ⌘-⌥-]
+  pane-nav-1: []
+  pane-nav-2: []
+  pane-nav-3: []
+  pane-nav-4: []
+  pane-nav-5: []
+  pane-nav-6: []
+  pane-nav-7: []
+  pane-nav-8: []
+  pane-nav-9: []
+  pane-maximize:
+    - ⌘-⌥-Enter
+  close-pane:
+    - ⌘-Shift-W
+  pane-increase-vertical: []
+  pane-decrease-vertical: []
+  pane-increase-horizontal: []
+  pane-decrease-horizontal: []
+  profile-selector:
+    - ⌘-E
+  switch-profile:
+    - ⌘-Shift-E
+  command-selector:
+    - ⌘-Shift-P
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Material
+    foreground: '#65b7dd'
+    background: rgba(32, 42, 47, 0.038)
+    selection: null
+    cursor: '#ffee58'
+    cursorAccent: null
+    colors:
+      - '#000000'
+      - '#D62341'
+      - '#66bb6a'
+      - '#FAED70'
+      - '#396FE2'
+      - '#BB80B3'
+      - '#2DDAFD'
+      - '#ff5722'
+      - rgb(236, 64, 122)
+      - '#8bc34a'
+      - '#fff176'
+      - '#42a5f5'
+      - '#82AAFF'
+      - '#C792EA'
+      - '#89DDFF'
+      - '#ffffff'
+  customColorSchemes:
+    - name: Material
+      foreground: '#65b7dd'
+      background: rgba(32, 42, 47, 0.038)
+      selection: null
+      cursor: '#ffee58'
+      cursorAccent: null
+      colors:
+        - '#000000'
+        - '#D62341'
+        - '#66bb6a'
+        - '#FAED70'
+        - '#396FE2'
+        - '#BB80B3'
+        - '#2DDAFD'
+        - '#ff5722'
+        - rgb(236, 64, 122)
+        - '#FF5370'
+        - '#fff176'
+        - '#42a5f5'
+        - '#82AAFF'
+        - '#C792EA'
+        - '#89DDFF'
+        - '#ffffff'
+  fontSize: 21
+  cursor: underline
+  background: colorScheme
+  profile: local:custom:Aw0:2f4e7e0c-d215-4c94-8cc8-f113ac54c98b
+  showTabProfileIcon: true
+  hideTabIndex: true
+  copyOnSelect: true
+ssh: {}
+configSync:
+  parts: {}
+  token: >-
+    5146f7d064360b0e45f4a28d9b9fd7616831e805c3169bdbd653be65a734c181289712372fe04ba07a80c4e65037005efa3be65d7acc0a71eacdee45b5b51521
+  configID: 15838
+clickableLinks: {}
+searchInBrowserPlugin: {}
+docker: {}
+accessibility: {}
+appearance: {}
+hacks: {}
+enableAnalytics: false
+language: en-US
+enableWelcomeTab: false
+pluginBlacklist: []
+profileDefaults: {}
