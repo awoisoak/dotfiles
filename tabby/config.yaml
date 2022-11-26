@@ -224,7 +224,7 @@ terminal:
         - '#C792EA'
         - '#89DDFF'
         - '#ffffff'
-  fontSize: 21
+  fontSize: 22
   cursor: underline
   background: colorScheme
   profile: local:custom:Aw0:2f4e7e0c-d215-4c94-8cc8-f113ac54c98b
