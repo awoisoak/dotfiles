@@ -14,7 +14,7 @@ eval "$(starship init zsh)"
 eval "$(rbenv init - zsh)"
 
 # Aliases
-alias tf="tfenv"
+alias tf="terraform"
 alias ll="exa --icons --group-directories-first"
 alias ls="exa --icons --group-directories-first -l"
 
