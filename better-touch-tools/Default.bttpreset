@@ -159,7 +159,7 @@
     "BTTNotchBarNotchMenubarModeHideRightScrollable" : true,
     "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612
   },
-  "BTTPresetUUID" : "2DB704E5-4348-4BFC-BEF3-8414A16785E5",
+  "BTTPresetUUID" : "62C42CF4-F306-451A-B2A0-1BC238F7B7EC",
   "BTTPresetContent" : [
     {
       "BTTAppBundleIdentifier" : "BT.G",
@@ -263,6 +263,25 @@
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
+          "BTTTriggerType" : 612,
+          "BTTTriggerTypeDescription" : "Move Mouse To Bottom Right Corner",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : 177,
+          "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+          "BTTAppToShowOrHide" : "\/Applications\/Trello.app",
+          "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAllWindows\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+          "BTTDelayBeforeTriggering" : 0,
+          "BTTEnabled2" : 1,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTRepeatDelay" : 0,
+          "BTTUUID" : "0FE88FB5-6876-4C5E-B6B0-0B834725B2AE",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0
+        },
+        {
           "BTTTriggerType" : 610,
           "BTTTriggerTypeDescription" : "Move Mouse To Top Right Corner",
           "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
@@ -354,22 +373,22 @@
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
-          "BTTTriggerType" : 612,
-          "BTTTriggerTypeDescription" : "Move Mouse To Bottom Right Corner",
+          "BTTTriggerType" : 611,
+          "BTTTriggerTypeDescription" : "Move Mouse To Bottom Left Corner",
           "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
           "BTTPredefinedActionType" : 177,
           "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
-          "BTTAppToShowOrHide" : "\/Applications\/Trello.app",
+          "BTTAppToShowOrHide" : "\/Applications\/Tabby.app",
           "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAllWindows\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
           "BTTDelayBeforeTriggering" : 0,
           "BTTEnabled2" : 1,
           "BTTAlternateModifierKeys" : 0,
           "BTTRepeatDelay" : 0,
-          "BTTUUID" : "0FE88FB5-6876-4C5E-B6B0-0B834725B2AE",
+          "BTTUUID" : "DA12E1AC-258E-4B38-812A-4F05AE07EC19",
           "BTTNotesInsteadOfDescription" : 0,
           "BTTEnabled" : 1,
           "BTTModifierMode" : 0,
-          "BTTOrder" : 1,
+          "BTTOrder" : 2,
           "BTTDisplayOrder" : 0
         },
         {
