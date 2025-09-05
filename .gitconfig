@@ -18,3 +18,26 @@
 
 [diff]
     colorMoved = default
+    algorithm = histogram
+
+[alias]
+	st = status
+	lol = log --oneline --graph --all
+    amend = "!f() { \
+	    git add -A && \
+	    if [ -n \"$1\" ]; then \
+	      git commit --amend -m \"$1\"; \
+	    else \
+	      git commit --amend; \
+	    fi && \
+	    git push -f; \
+	  }; f"
+	amend-no-verify = "!f() { \
+	    git add -A && \
+	    if [ -n \"$1\" ]; then \
+	      git commit --amend --no-verify -m \"$1\"; \
+	    else \
+	      git commit --amend --no-verify; \
+	    fi && \
+	    git push -f; \
+	  }; f"
