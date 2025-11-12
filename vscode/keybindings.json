@@ -1,0 +1,9 @@
+//Add this shortcut at:  Ctrl + Shift + P → “Preferences: Open Keyboard Shortcuts (JSON)
+[
+    // Assigns a Theme just to current workspace
+    {
+        "key": "cmd+shift+t",
+        "command": "workbench.action.selectTheme",
+        "args": { "target": "workspace" }
+    }
+]
