@@ -1,0 +1,36 @@
+command = [
+    "claude",
+    "--dangerously-skip-permissions"
+]
+
+ro_maps = [
+    "~/.gitconfig",
+    "~/.config/git",
+    "~/.gitignore_global",
+    "~/.ai-jail"
+]
+
+rw_maps = ["/tmp"]
+
+# To make sure it doesn't generate .ai-jail per project
+no_save_config = true
+
+# To make sure the agents can read the .ai-jail
+no_hide_config = true
+
+no_status_bar = true
+network = true
+ssh = true
+gcp = true
+aws = true
+kube = true
+github = true
+no_github = false
+terminal_passthrough = true
+macos_host_ipc = true
+
+# Allow these projects to have their own .ai-jail file
+# so they could grant access to outside projects via their own rw_maps
+trust_project_config = [
+    "~/workspace/my-project"
+]
